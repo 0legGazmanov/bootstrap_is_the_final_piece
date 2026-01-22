@@ -30,40 +30,54 @@
     color: #eeeeee;
 }
 
+.btn-dust{
+  background-color: var(--dust);
+  color: var(--ash);
+}
+.btn-dust:hover{
+  background-color: var(--void);
+  color: var(--ash);
+}
 
-.p1 {
-  transform: scale(1); 
+
+.image{
   transition: transform 0.5s ease;
 }
 
 .p1:hover {
-  transform: scale(1.1); 
-  z-index: 5;
-}
-.p2 {
-  transform: scale(1); 
-  transition: transform 0.5s ease;
+  transform: translateY(-8%);
 }
 
 .p2:hover {
-  transform: scale(1.1); 
-   z-index: 5;
-}
-.p3 {
-  transform: scale(1); 
-  transition: transform 0.5s ease;
+  transform: translateY(-8%);
 }
 
 .p3:hover {
-  transform: scale(1.1); 
-   z-index: 5;
-}
-.p4 {
-  transform: scale(1); 
-  transition: transform 0.5s ease;
+  transform: translateY(-8%);
 }
 
 .p4:hover {
-  transform: scale(1.1); 
-   z-index: 5;
+  transform: translateY(-8%);
+}
+
+.item{
+  transition: all 0.5s ease;
+
+}
+.item:hover{
+  transform: scale(105%);
+  background-color: var(--accent);
+  color: var(--void);
+  z-index: 5;
+}
+
+
+.dropdown-item:hover{
+  background-color: var(--accent);
+  color: var(--void);
+}
+
+.dropdown-item:active{
+  background-color: var(--ash);
+  color: var(--void);
 }

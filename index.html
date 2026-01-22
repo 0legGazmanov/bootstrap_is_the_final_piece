@@ -41,16 +41,16 @@
             Morbi tempus
           </h1>
           <a href="#" class="btn btn-warning main-text-font mt-3">
-            Button
+            button
           </a>
         </div>
         <div class="col-lg-6 col-md-12">
           <div id="carouselExampleIndicators" class="carousel slide">
 
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" style="background-color: var(--void);"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" style="background-color: var(--void);" ></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" style="background-color: var(--void);"></button>
             </div>
 
             <div class="carousel-inner rounded">
@@ -81,24 +81,52 @@
   <section class="bg-ash p-2">
     <div class="container">
        <div class="row py-lg-5"> 
-        <div class="col-lg-6 col-md-8 mx-auto">
+        <div class="col-lg-6 col-md-8 mx-auto mb-4">
             <h1 class="main-text-font text-uppercase text-void text-center">
                 Morbi tempus
             </h1>
-            <p class="main-text-font text-void text-center">
+            <p class="main-text-font text-void text-center fs-5">
                 Aliquam facilisis magna tellus, id faucibus erat pellentesque at.
                 Nulla facilisi. Donec vitae ligula eros.
             </p>
         </div>
          <div class="row mx-auto gap-1">
-            <div class="bg-void image p1" style="height:500px; width: 20rem; border-radius: 15px;"></div>
-            <div class="bg-dust image p2" style="height:500px; width: 20rem; border-radius: 15px;"></div>
-            <div class="bg-warning image p3" style="height:500px; width: 20rem; border-radius: 15px;"></div>
-            <div class="bg-ash image p4" style="height:500px; width: 20rem; border: solid 1px var(--dust); border-radius: 15px;"></div>
+            <div class="bg-void image p1 d-flex flex-column rounded" style="height:500px; width: 20rem;">
+              <div class="d-flex flex-column align-items-center justify-content-end p-4 m-4 mt-auto">
+              <p class="main-text-font text-uppercase text-ash text-center">Cras sem ligula, ultrices nons</p>
+              <a href="#" class="btn btn-light main-text-font mt-3 ">
+                button
+              </a>
+              </div>
+            </div>
+            <div class="bg-dust image p1 d-flex flex-column rounded" style="height:500px; width: 20rem;">
+              <div class="d-flex flex-column align-items-center justify-content-end p-4 m-4 mt-auto">
+              <p class="main-text-font text-uppercase text-ash text-center">Vivamus nec urna sodales est</p>
+              <a href="#" class="btn btn-warning main-text-font mt-3 ">
+                button
+              </a>
+              </div>
+            </div>
+            <div class="bg-warning image p1 d-flex flex-column rounded" style="height:500px; width: 20rem;">
+              <div class="d-flex flex-column align-items-center justify-content-end p-4 m-4 mt-auto">
+              <p class="main-text-font text-uppercase text-void text-center">Aliquam enim felis, facilisis quis</p>
+              <a href="#" class="btn btn-dark main-text-font mt-3 ">
+                button
+              </a>
+              </div>
+            </div>
+            <div class="bg-ash image p1 d-flex flex-column rounded" style="height:500px; width: 20rem; border: 1px solid var(--dust) ;">
+              <div class="d-flex flex-column align-items-center justify-content-end p-4 m-4 mt-auto">
+              <p class="main-text-font text-uppercase text-dust text-center">Duis ut scelerisque arcu. Nunc</p>
+              <a href="#" class="btn btn-dust main-text-font mt-3 ">
+                button
+              </a>
+              </div>
+            </div>
          </div>
-             <p class="pt-4 text-center"> 
-               <a href="#" class="btn btn-warning main-text-font my-2">button</a>
-            </p> 
+            <p class="main-text-font text-void text-center pt-4 fs-5">
+                Nullam suscipit sollicitudin cursus. Cras laoreet nisl neque, sit amet suscipit sem pharetra eget. Aliquam erat volutpat. In odio nulla, auctor nec arcu dictum, lacinia tempor purus. Quisque eget cursus dolor. Aliquam sed risus nec dolor tempor blandit.
+            </p>
     </div>
 
   </section>
@@ -108,7 +136,7 @@
     <div class="row g-4 mb-4 align-items-stretch">
   <div class="col-md-6 d-flex flex-column" style="min-height:400px;">
     <h2 class="text-warning text-center">Features</h2>
-    <p class="text-dust text-center">
+    <p class="text-dust text-center fs-5">
       Curabitur metus turpis, vulputate ac neque ut, finibus feugiat diam. Sed efficitur quis nulla vitae semper. Maecenas nec nibh sed tortor pharetra malesuada a at ex. Morbi orci enim, maximus id leo vitae, commodo elementum nisi. Donec orci est, molestie ac dapibus quis, ultrices in purus. Praesent blandit odio elit, sit amet iaculis purus viverra quis.
     </p>
     <div class="row g-3 mt-auto">
@@ -129,7 +157,7 @@
   <div class="col-md-6">
     <div class="bg-dust rounded d-flex align-items-center justify-content-center"
          style="height:400px;">
-      <span class="text-warning fs-1">&#10148;</span>
+      <span class="text-warning fs-1">&#9658;</span>
     </div>
     </div>
     </div>
@@ -141,40 +169,132 @@
     <div class="col-md-6">
         <div class="bg-dust rounded d-flex align-items-center justify-content-center"
             style="height:400px;">
-        <span class="text-warning fs-1">&#10148;</span>
+        <span class="text-warning fs-1">&#9658;</span>
         </div>
     </div>
   <div class="col-md-6 d-flex flex-column" style="min-height:400px;">
     <h2 class="text-warning text-center">Features</h2>
-    <p class="text-ash text-center">
+    <p class="text-ash text-center fs-5">
       Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed cursus mauris quis metus tincidunt porta. Aliquam elementum ut tellus bibendum imperdiet. Vivamus at dolor enim. Curabitur viverra lobortis enim, eget vulputate mi pulvinar at. Pellentesque auctor ultricies orci, nec dictum lorem condimentum quis. Donec ac consectetur risus, eu iaculis lacus.
     </p>
     <div class="row g-3 mt-auto">
       <div class="col-6">
-        <div class="bg-dust rounded p-4 text-center text-ash">Item One</div>
+        <div class="bg-dust rounded p-4 text-center text-ash item">Item One</div>
       </div>
       <div class="col-6">
-        <div class="bg-dust rounded p-4 text-center text-ash">Item Two</div>
+        <div class="bg-dust rounded p-4 text-center text-ash item">Item Two</div>
       </div>
     </div>
   </div>
     </div>
     <div class="row g-3">
       <div class="col-md-3 col-6">
-        <div class="bg-dust rounded p-4 text-center text-ash">Item Three</div>
+        <div class="bg-dust rounded p-4 text-center text-ash item">Item Three</div>
       </div>
       <div class="col-md-3 col-6">
-       <div class="bg-dust rounded p-4 text-center text-ash">Item Four</div>
+       <div class="bg-dust rounded p-4 text-center text-ash item">Item Four</div>
       </div>
       <div class="col-md-3 col-6">
-        <div class="bg-dust rounded p-4 text-center text-ash">Item Five</div>
+        <div class="bg-dust rounded p-4 text-center text-ash item">Item Five</div>
       </div>
       <div class="col-md-3 col-6">
-       <div class="bg-dust rounded p-4 text-center text-ash">Item Six</div>
+       <div class="bg-dust rounded p-4 text-center text-ash item">Item Six</div>
       </div>
     </div>
   </div>
 </section>
+<section class="py-5 bg-ash main-text-font">
+<div class="container py-4"> 
+   <div class="p-5 mb-4 bg-white rounded-3"> 
+    <div class="container-fluid py-5"> 
+      <h1 class="main-text-font text-uppercase text-void">Suspendisse potenti</h1> 
+      <p class="col-md-8 fs-4">
+        Sed quis ligula metus. Vestibulum a erat quis felis molestie consectetur sit amet sed odio. Phasellus id libero ullamcorper, finibus elit ut, finibus sapien. Integer a metus efficitur augue blandit feugiat. Donec nec mollis mi. Phasellus non dui est. Nulla placerat iaculis iaculis. Etiam ultrices mauris eu blandit vestibulum. 
+      </p> 
+      <button class="btn btn-warning btn-lg" type="button">button</button> 
+      </div> 
+    </div> 
+    <div class="row align-items-md-stretch"> 
+      <div class="col-md-6"> 
+        <div class="h-100 p-5 bg-void text-ash rounded-3 "> 
+          <h2 class="text-warning">Duis facilisis</h2> 
+          <p>
+            In id leo sit amet arcu suscipit porttitor ac eget tellus. Curabitur ultrices tincidunt dolor, sit amet vestibulum leo aliquet a. Proin laoreet neque in augue posuere efficitur. Donec eget mollis lacus, sed euismod lacus. Vivamus facilisis metus sit amet elementum mattis. Mauris hendrerit, odio nec finibus gravida, justo mi varius elit, fringilla mollis est urna nec augue.
+          </p> 
+            <button class="btn btn-outline-warning" type="button">button</button> 
+          </div>
+         </div> 
+         <div class="col-md-6"> 
+          <div class="h-100 p-5 bg-white text-void rounded-3"> 
+            <h2 class="text-warning">Nam iaculis</h2> 
+            <p>
+              Sed interdum fringilla arcu ut pellentesque. Fusce sed metus volutpat, molestie nibh sed, placerat libero. Aliquam sit amet ultricies est. Quisque eu lectus turpis. Mauris placerat, odio sit amet egestas interdum, magna urna molestie eros, eu faucibus odio leo at arcu. Morbi at lacus efficitur, lobortis metus sit amet, consequat diam.
+            </p> 
+            <button class="btn btn-outline-dark" type="button">button</button>
+           </div> 
+          </div> 
+        </div> 
+       </div>
+  </div>
+</section>
+<section>
+<div class="container py-4"> 
+    <div class="row align-items-center g-lg-5 py-5"> 
+      <div class="col-lg-7"> 
+        <h1 class="main-text-font text-uppercase text-void">Suspendisse potenti</h1> 
+        <p class="col fs-4">
+          Morbi tincidunt fermentum arcu ut pulvinar. Aliquam nunc mi, varius quis efficitur vel, aliquet vitae mi. Donec mollis tellus nec eleifend dignissim. Fusce eleifend fringilla vulputate. Sed pharetra tristique pulvinar. Cras vel dui diam. Aliquam erat volutpat. Sed ac ornare velit.        
+        </p> 
+      </div> 
+      <div class="col-md-10 mx-auto col-lg-5"> 
+        <form class="p-4 p-md-5 border rounded-3 bg-dust text-ash main-text-font"> 
+          <div class="form-floating mb-3"> 
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"> 
+            <label for="floatingInput">Email address</label> 
+          </div> 
+          <div class="form-floating mb-3"> 
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password"> 
+              <label for="floatingPassword">Password</label> 
+            </div> 
+              <div class="checkbox mb-3"> 
+                <label> 
+                <input type="checkbox" value="remember-me"> Remember me
+              </label> 
+            </div> 
+            <button class="w-100 btn btn-lg btn-warning" type="submit">Sign up</button> 
+            <hr class="my-4"> 
+            <small class="text-white">By clicking Sign up, you agree to the terms of use.</small> 
+          </form> 
+        </div> 
+      </div>
+  </div>
+</section>
 </main>
+
+
+<footer class="py-3 bg-void main-text-font">
+
+    <div class="container"> 
+    <ul class="nav justify-content-center pb-3 mb-3" style="border-bottom: solid var(--accent);"> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-light">Home</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-light">Features</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-light">Pricing</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-light">FAQs</a>
+      </li> 
+      <li class="nav-item">
+        <a href="#" class="nav-link px-2 text-light">About</a>
+      </li> 
+    </ul> 
+    <p class="text-center text-light">© 2026 Company, Inc</p> 
+    </div>
+  </footer> 
+
 </body>
 </html>
